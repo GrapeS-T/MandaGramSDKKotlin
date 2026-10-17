@@ -1,0 +1,4 @@
+/build/
+/.konan/
+/.idea/
+*.iml

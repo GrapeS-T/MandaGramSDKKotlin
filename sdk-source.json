@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "language": "kotlin",
+  "engine": {
+    "repository": "https://github.com/GrapeS-T/MandaGram",
+    "commit": "259fc5a38b64a12c85121838278f78ee72541dfb"
+  },
+  "target": {
+    "architectures": [
+      "x86_64"
+    ],
+    "platforms": [
+      "windows"
+    ],
+    "pluginApiSlots": 53,
+    "versionNegotiation": false,
+    "deinitOrUnregister": false
+  },
+  "hashPolicy": "SHA256 of UTF-8 source bytes with CRLF normalized to LF; header hashes equal the committed engine blobs.",
+  "headers": [
+    {
+      "file": "mandagram_plugin.h",
+      "enginePath": "src/native/include/mandagram_plugin.h",
+      "sha256": "3046fa914fa2766d412c41ce63cbaf63f23ca7bcd6c00aa2b59ca3b3d5176d0e"
+    }
+  ],
+  "origin": {
+    "repository": "https://github.com/GrapeS-T/MandaGram",
+    "note": "Language bindings derived from the pinned canonical C header; standalone native plugin example."
+  },
+  "evidence": {
+    "sourceMatched": "Canonical headers verified against pinned engine git blobs; not a certification of any distributed client.",
+    "runtime": "Not loaded in MandaGram; no client data used."
+  }
+}

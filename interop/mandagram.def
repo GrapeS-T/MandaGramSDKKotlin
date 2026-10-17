@@ -1,0 +1,3 @@
+headers = mandagram_plugin.h
+headerFilter = mandagram_plugin.h
+package = mandagram.c
